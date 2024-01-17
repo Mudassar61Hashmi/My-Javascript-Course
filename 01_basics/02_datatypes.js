@@ -10,8 +10,10 @@
 // symbol => unique
 // object
 
-let name="Mudassar"
+let name="Mudassar098"
+let checkNum= "123"
 let number=1234
-let isLoggedin= false
+let checkBool= true
+let isLoggedin= "Hello"
 
-console.log(typeof number)
+console.table([typeof(name),typeof(checkNum),typeof(number),typeof(checkBool),typeof(isLoggedin)])
