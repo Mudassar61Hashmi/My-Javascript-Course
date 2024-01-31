@@ -9,7 +9,14 @@ const tinderUser={}
 tinderUser.id="BC2204"
 tinderUser.name= "Mudassar Hashmi"
 tinderUser.phone= "03267581232"
+tinderUser.isLoggedIn= false
+// const isLoggedIn= false
 // console.log(tinderUser);
+
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
 /*Object within another obj */
 
@@ -26,6 +33,9 @@ const regularUser={
 const obj1={1:"a", 2:"b",3:"c"}
 const obj2={4:"d", 5:"e",6:"f"}
 const obj3= {...obj1,...obj2}
+
+const obj4= Object.assign(obj1,obj2)
+// console.log(obj4)
 
 // console.log(obj3);
 
@@ -58,4 +68,4 @@ const objDeStr={
 }
 /*object destructuring */
 const{courseId, courseName,courseInstruct}= objDeStr;
-console.log(courseName);
+// console.log(courseName);
